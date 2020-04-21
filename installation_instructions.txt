@@ -1,0 +1,30 @@
+In order to get this file up and running, you got to set up some environment
+variables first. Since I don't want to expose sensitive information to the entire
+world, I have my code reference locally stored variables which point to my acount
+token and authenication token.
+
+This'll eventually become a proper file that handles variable installation 
+automatically, but this'll do for now.
+
+LINUX:
+Open your terminal and run the following command:
+  export TWILIO_ACCOUNT_SID="..."
+
+After that, type in:
+  export TWILIO_AUTH_TOKEN="+++"
+
+Type in:
+  export SENDER_PHONE_NUMBER="@@@"
+
+Finally, type in:
+  export RECIPIENT_PHONE_NUMBER="&&&"
+
+
+When you run these commands, replace ... with the Account Sid, replace +++ 
+with the Auth Token, and replace @@@ with the phone number that I'll send out. 
+Keep in mind that &&& can be any number that you wish to receive the message at.
+This phone is in the form of the SENDER_PHONE_NUMBER that I'll send. 
+
+Finally, you can run the program by typing in "python2.7 main.py"
+
+Let me know if anyone has any questions!
