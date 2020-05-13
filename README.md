@@ -37,7 +37,7 @@ pip2.7 install Twilio
 
 
 
-3. Add ``` Lxterminal -e python “/home/Desktop/Group-11-ECE2305-Project/main.py” ``` to that same file. This ensures that the program always runs on startup.
+3. Add ``` Lxterminal -e python2.7 “/home/Desktop/Group-11-ECE2305-Project/main.py” ``` to that same file. This ensures that the program always runs on startup.
 
     NOTE: This command assumes that the python file is located in the "./Group-11-ECE2305-Project" folder on the desktop
 
