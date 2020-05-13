@@ -1,21 +1,21 @@
-# Project Title
+# IOT Mail Delivery Notification System
 
-This repository contains the code for Team 11's course project for ECE2305 - Introduction to Communications and Networks. (Elaborate on this until we have a paragraph describing the content of the course, what we chose as our course project, and what specific material we chose to implement. 
+This repository contains the code for Team 11's course project for ECE2305 - Introduction to Communications and Networks. In this course, we extenively covered the five layer TCP/IP model and various other networking models. A large focus of the course was to work in teams to design and build a custom Internet-of-Things prototype. Our team came up with a Raspberry Pi-based solution to knowing when one's mail has arrived. The mailbox sends an SMS message to the user when their mail has been delivered to their house. The idea behind the prototype is so people using the design will automatically know when their mail has arrived, so they won't have to impulsively check their mailbox. The design consists of a mailbox that contains a Raspberry Pi micro-controller (MCU), a breadboard, A RavPower Deluxe Series Portable Charger, and a contact switch.
+
 
 ## Getting Started
 
-(This'll eventually describe how people can get this software installed on their personal devices)
-TALK ABOUT MAKING SURE THE RPI IS CONNECTED TO INTERNET MAYBE?
+This project relies on a stable internet connection, so, in order to proceed, it's advised that you make sure that your Raspberry Pi is connected to the internet.
+
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Since this project depends on the Twilio library, it's required for it to be installed to your Raspberry Pi. This can be done by running the following command:
 
 ```
-Give examples
+pip2.7 install Twilio
 ```
 
-TALK ABOUT PIP HERE/NEED TO TALK ABOUT PIP INSTALL
 
 ### Quick start 
 
@@ -31,32 +31,25 @@ NOTE: You cannot progress past this step if you don't fall within one of those t
 
 NOTE: This command assumes that the python file is located in the "./Group-11-ECE2305-Project" folder on the desktop
 
+4. Reboot your Raspberry Pi and watch it run!
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment (DELETE MAYBE?)
-
-TALK ABOUT HOW EVERYTHING IS WIRED TOGETHER
 
 ## Built With
 
 * [Twilio](https://www.twilio.com/) - Used to send SMS messages
-* [RESOURCE NAME](http://www.google.com) - BLURB
-* [RESOURCE NAME](http://www.google.com) - BLURB
+* [gpiozero](https://gpiozero.readthedocs.io/en/stable/) - Used to interface with RPi GPIO
+
 
 ## Authors
 
-* **Samantha Boyea** - *DESCRIBE CONTRIBUTIONS* - [sboyea](https://github.com/sboyea)
-* **Emily Bubencik** - *DESCRIBE CONTRIBUTIONS* - [emilyb53](https://github.com/emilyb53)
-* **Ryan Devendorf** - *DESCRIBE CONTRIBUTIONS* - [ryanDevendorf](https://github.com/ryanDevendorf)
-* **Jonathan Ferreira** - *DESCRIBE CONTRIBUTIONS* - [Sarodace](https://github.com/Sarodace)
+* **Samantha Boyea** - *Assembling the mailbox & implementation* - [sboyea](https://github.com/sboyea)
+* **Emily Bubencik** - *Assist where needed* - [emilyb53](https://github.com/emilyb53)
+* **Ryan Devendorf** - *Programming the Raspberry Pi* - [ryanDevendorf](https://github.com/ryanDevendorf)
+* **Jonathan Ferreira** - *Programming the Raspberry Pi* - [Sarodace](https://github.com/Sarodace)
+
+All authors met extensively throughout the term to test the functionality of the project. 
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments (DELETE MAYBE?)
-
-* USE THIS TO THANK PEOPLE WHOSE CODE WE USED
-* INSPIRATION
-* etc
