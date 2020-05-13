@@ -14,21 +14,20 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Installing
+### Quick start 
 
-A step by step series of examples that tell you how to get a development env running
+1. Clone repository to desktop by running  ``` git clone [web URL] ``` where the ```[web URL]``` is gotten from the "Clone or download" button.
 
-Say what the step will be
+NEED TO TALK ABOUT PIP INSTALL
 
-```
-Give the example
-```
+2. Add TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, RECIPIENT_PHONE_NUMBER, and SENDER_PHONE_NUMBER environment variable declarations to the startup file. This can be done through opening that file with ```sudo nano /etc/rc.local```. Once nano has opened at that file, you'll add ``` export [ENVIRONMENT_VARIABLE]=[RELEVANT_INFORMATION] ``` before the line which says "exit 0". You'll add this four times and every line's [ENVIRONMENT_VARIABLE] will be substituted with one of the four variables that needs to be declared. The [RELEVANT_INFORMATION] will only be provided to members of Team 11 and, by request, to the intructor and TAs of ECE2305.
 
-And repeat
+NOTE: You cannot progress past this step if you don't fall within one of those two extremely narrow groups. Despite that, feel free to utilize the code for your own pursuits!
 
-```
-until finished
-```
+3. Add ``` Lxterminal -e python “/home/Desktop/Group-11-ECE2305-Project/main.py” ``` to that same file. This ensures that the program always runs on startup.
+
+NOTE: This command assumes that the python file is located in the "./Group-11-ECE2305-Project" folder on the desktop
+
 
 End with an example of getting some data out of the system or using it for a little demo
 
