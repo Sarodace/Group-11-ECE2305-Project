@@ -1,4 +1,4 @@
-# IOT Mail Delivery Notification System
+# IoT Mail Delivery Notification System
 
 This repository contains the code for Team 11's course project for ECE2305 - Introduction to Communications and Networks. In this course, we extenively covered the five layer TCP/IP model and various other networking models. A large focus of the course was to work in teams to design and build a custom Internet-of-Things prototype. Our team came up with a Raspberry Pi-based solution to knowing when one's mail has arrived. The mailbox sends an SMS message to the user when their mail has been delivered to their house. The idea behind the prototype is so people using the design will automatically know when their mail has arrived, so they won't have to impulsively check their mailbox.
 
@@ -35,7 +35,7 @@ pip2.7 install Twilio
 
     NOTE: You cannot progress past this step if you don't fall within one of those two extremely narrow groups. Despite that, feel free to utilize the code for your own pursuits!
 
-    
+
 
 3. Add ``` Lxterminal -e python “/home/Desktop/Group-11-ECE2305-Project/main.py” ``` to that same file. This ensures that the program always runs on startup.
 
